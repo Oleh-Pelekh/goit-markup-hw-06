@@ -881,6 +881,10 @@ img {
   margin-bottom: 10px;
 }
 
+.field-modal {
+  margin-bottom: 0;
+}
+
 .modal-form-wrapper {
   margin-top: 4px;
   position: relative;
