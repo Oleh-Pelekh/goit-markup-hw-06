@@ -992,6 +992,26 @@ img {
   margin-bottom: 30px;
 }
 
+.conditions {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  position: relative;
+  color: var(--hover-color);
+}
+
+.line:before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 1px;
+  background: var(--hover-color);
+  border-radius: 2px;
+  left: 0;
+  bottom: 5px;
+  
+
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
   background-image: url(../images/iconcheck.svg);
   background-size: contain;
