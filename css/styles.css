@@ -78,14 +78,14 @@ img {
   margin: 0 auto 0 auto;
 }
 
+/*---------------header-------------*/
+
 .header-container,
 .site-nav,
 .contacts {
   display: flex;
   align-items: center;
 }
-
-/*---------------header-------------*/
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -204,9 +204,6 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--accent-color);
-}
-
-.hero-title {
   margin-bottom: 30px;
 }
 
@@ -1065,6 +1062,7 @@ img {
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
+  outline: 1px solid var(--hover-color);
   background-image: url(../images/vector.svg);
   background-size: contain;
   background-origin: border-box;
